@@ -92,8 +92,24 @@ body {
     z-index: 3;
 }
 
+.fourth_layer {
+    z-index: 4;
+}
+
 .half_circle {
     width: 100%;
+    height: 100%;
+    border-radius: 50% 0 0 50%;
+}
+
+.half_circle_half {
+    width: 70%;
+    height: 100%;
+    border-radius: 50% 0 0 50%;
+}
+
+.half_circle_quarter {
+    width: 50%;
     height: 100%;
     border-radius: 50% 0 0 50%;
 }
@@ -101,6 +117,13 @@ body {
 .rectangle {
     width: 45%;
     height: 100%;
+}
+
+#oval {
+    width: 50%;
+    height: 100%;
+    background: green;
+    border-radius: 100px / 50px;
 }
 
 #rectangle_align_left{
@@ -115,10 +138,71 @@ body {
     justify-content: flex-end;
 }
 
+.half_circle_align_right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#top_triangle_bottomleft1 {
+    width: 0;
+    height: 0;
+    border-bottom: 12rem solid #fcdccc;
+    border-right: 7rem solid transparent;
+}
+
+#top_triangle_bottomleft2 {
+    width: 0;
+    height: 0;
+    border-bottom: 11.5rem solid #5bd983;
+    border-right: 5rem solid transparent;
+}
+
+#top_triangle_bottomleft3 {
+    width: 0;
+    height: 0;
+    border-bottom: 11.2rem solid black;
+    border-right: 3.5rem solid transparent;
+}
+
+#bottom_triangle_bottomleft {
+    width: 0;
+    height: 0;
+    border-bottom: 100% solid #faaa98;
+    border-right: 100% solid transparent;
+}
+
+#downward_triangle {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 120px solid transparent;
+    border-top: 180px solid #f2c4a0;
+}
+
+#quarter_circle {
+    border-radius: 0 0 200px 0;
+    width: 99%;
+    height: 95%;
+    margin-bottom: 2rem;
+}
+
+#quarter_circle2 {
+    border-radius: 0 0 200px 0;
+    width: 99%;
+    height: 100%;
+    margin-bottom: 2rem;
+}
+
+
 .pink {
     background-color: #fc81b6;
 }
 
 .black {
     background-color: black;
+}
+
+.red {
+    background-color: red;
 }

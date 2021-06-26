@@ -1,6 +1,6 @@
 * {
-    border-style: solid;
-    border-color: black;
+    /* border-style: solid;
+    border-color: black; */
 }
 
 html {
@@ -46,4 +46,24 @@ body {
     width: 30%;
     margin: 0;
     padding: 0; 
+}
+
+.brown_gray {
+    background-color: #b8b1a5;
+}
+
+.gray {
+    background-color: #ccc9c2;
+}
+
+.greenish_gray {
+    background-color: #b3bdb4;
+}
+
+.darkish_gray {
+    background-color: #ada9a1;
+}
+
+.dark_gray {
+    background-color: #918d86;
 }
